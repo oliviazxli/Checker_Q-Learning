@@ -114,15 +114,15 @@ def play_one_game(agent1: DQNAgent, agent2: DQNAgent,
 # Main
 def main():
     parser = argparse.ArgumentParser(description="Checkers AI vs AI")
-    parser.add_argument("--p1",    default="dqn_best.pth", help="Model path for player 1 (white)")
-    parser.add_argument("--p2",    default="dqn_last.pth", help="Model path for player 2 (black)")
+    parser.add_argument("--p1",    default="dqn_best.pth", help="Model path for player 1 ")
+    parser.add_argument("--p2",    default="dqn_last.pth", help="Model path for player 2 ")
     parser.add_argument("--games", type=int, default=1,    help="Number of games to play")
     parser.add_argument("--delay", type=int, default=500,  help="Delay between moves in ms")
     args = parser.parse_args()
 
     print("=== Checkers: AI vs AI ===")
-    print(f"  P1 (white): {args.p1}")
-    print(f"  P2 (black): {args.p2}")
+    print(f"  P1 (black): {args.p1}")
+    print(f"  P2 (white): {args.p2}")
     print(f"  Games:      {args.games}")
     print(f"  Move delay: {args.delay} ms")
     print()
@@ -162,4 +162,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()

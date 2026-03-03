@@ -15,7 +15,7 @@ AI Self-Play：Watch two AI agents compete against each other to observe trainin
 
 
 ## 🛠️ Tech Stack
-### Language: Python 3.9
+### Language: Python 3.10
 
 ### Reinforcement Learning: Q-Learning (DQN-based)
 

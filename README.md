@@ -1,3 +1,3 @@
 # Checker_Q-Learning
 
-![Project Demo](images/demo.gif)
+![demo](https://github.com/user-attachments/assets/a67579ec-b494-48ee-bfc5-b2c7d08b856e)
